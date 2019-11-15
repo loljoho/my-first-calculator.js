@@ -7,16 +7,14 @@ const maxNum  = 50;
 const nums    = [...Array(maxNum + 1).keys()];
 const signs   = ['+', '-', '/', '*'];
 
-let outputStr = `// my-first-calculator.js by loljoho
+fs.writeFileSync(filename, `// my-first-calculator.js by loljoho
 const readlineSync = require('readline-sync');
 
 console.log('Welcome to this calculator!');
 console.log('It can add, subtract, multiply, and divide whole numbers from ${minNum} to ${maxNum}.');
 let num1 = readlineSync.question('Please choose your first number: ');
 let sign = readlineSync.question('What do you want to do?  +, -, /, or *: ');
-let num2 = readlineSync.question('Please choose your second number: ');\n\n`;
-
-fs.writeFileSync(filename, outputStr);
+let num2 = readlineSync.question('Please choose your second number: ');\n\n`);
 
 // write all the if statements to file
 signs.forEach(sign => {
