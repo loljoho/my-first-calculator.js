@@ -20,6 +20,12 @@ Run it:
 npm start
 ```
 
+## To-Do List
+
+ - [ ] Make it all asynchronous and without any dependencies
+ - [ ] Tidy up the template literals
+ - [ ] Tidy up the code formatting
+
 ## About
 
 This is such a silly script and is written pretty badly.  
