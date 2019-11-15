@@ -1,0 +1,28 @@
+{
+  "name": "my-first-calculator",
+  "version": "1.0.0",
+  "description": "my-first-calculator.js",
+  "main": "my-first-calculator.js",
+  "scripts": {
+    "start": "node my-first-calculator.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loljoho/my-first-calculator.git"
+  },
+  "keywords": [
+    "calculator",
+    "javascript",
+    "hilarious"
+  ],
+  "author": "Joho (Jonathan Ho)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loljoho/my-first-calculator/issues"
+  },
+  "homepage": "https://github.com/loljoho/my-first-calculator#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
