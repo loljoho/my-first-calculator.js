@@ -4,9 +4,13 @@ This is [so silly](https://github.com/AceLewis/my_first_calculator.py).
 
 ## Usage
 
-Clone the repository and enter the directory:
+Clone the repository:
 ```bash
 git clone https://github.com/loljoho/my-first-calculator.git
+```
+
+Enter the directory:
+```bash
 cd my-first-calculator/
 ```
 
@@ -28,6 +32,8 @@ npm start
 
 ## About
 
-This is such a silly script and is written pretty badly.  
+This is such a silly script and is written poorly.
 
-I'm not particularly proud of it.
+I _may_ not have been sober when I created this.
+
+I am not particularly proud of it.
