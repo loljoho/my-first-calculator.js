@@ -7,6 +7,7 @@ const maxNum  = 50;
 const nums    = [...Array(maxNum + 1).keys()];
 const signs   = ['+', '-', '/', '*'];
 
+// write to the file
 fs.writeFileSync(filename, `// my-first-calculator.js by loljoho
 const readlineSync = require('readline-sync');
 
@@ -16,7 +17,7 @@ let num1 = readlineSync.question('Please choose your first number: ');
 let sign = readlineSync.question('What do you want to do?  +, -, /, or *: ');
 let num2 = readlineSync.question('Please choose your second number: ');\n\n`);
 
-// write all the if statements to file
+// append all the `if` statements to file
 signs.forEach(sign => {
   nums.forEach(num1 => {
     nums.forEach(num2 => {
