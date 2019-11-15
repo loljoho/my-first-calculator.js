@@ -27,6 +27,8 @@ npm start
 ## To-Do List
 
  - [ ] Make it all asynchronous and without any dependencies
+ - [ ] Add user input validation of some sort
+ - [ ] Use strict equality comparison (`===`) in `if` statements
  - [ ] Tidy up the template literals
  - [ ] Tidy up the code formatting
 
