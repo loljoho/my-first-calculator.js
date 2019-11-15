@@ -16,7 +16,6 @@ let num1 = readlineSync.question('Please choose your first number: ');
 let sign = readlineSync.question('What do you want to do?  +, -, /, or *: ');
 let num2 = readlineSync.question('Please choose your second number: ');\n\n`;
 
-// TODO: do it async without any dependencies
 fs.writeFileSync(filename, outputStr);
 
 // write all the if statements to file
