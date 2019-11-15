@@ -3,7 +3,7 @@ const fs = require('fs');
 const filename = 'my-first-calculator.js';
 
 const minNum  = 0;
-const maxNum  = 100;
+const maxNum  = 50;
 const nums    = [...Array(maxNum + 1).keys()];
 const signs   = ['+', '-', '/', '*'];
 
